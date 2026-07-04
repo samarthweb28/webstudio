@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samarth Web Studio — Portfolio</title>
+<meta name="description" content="Samarth Chinchankar — web developer building single page, multi page and hosted websites.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style .css">
+</head>
+<body>
+
+<!-- ============ TOP TAB NAV ============ -->
+<header class="tabbar" id="tabbar">
+  <div class="tabbar-brand">
+    <span class="dot"></span> samarth<span class="accent">.dev</span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <a href="#home" class="tab is-active" data-target="home">home<span class="ext"></span></a>
+    <a href="#about" class="tab" data-target="about">about<span class="ext"></span></a>
+    <a href="#services" class="tab" data-target="services">services<span class="ext"></span></a>
+    <a href="#projects" class="tab" data-target="projects">projects<span class="ext"></span></a>
+    <a href="#contact" class="tab" data-target="contact">contact<span class="ext"></span></a>
+  </nav>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-menu-links">
+    <a href="#home" class="mobile-link" data-target="home"><span class="ext">01</span>home<span class="ext">.html</span></a>
+    <a href="#about" class="mobile-link" data-target="about"><span class="ext">02</span>about<span class="ext">.html</span></a>
+    <a href="#services" class="mobile-link" data-target="services"><span class="ext">03</span>services<span class="ext">.html</span></a>
+    <a href="#projects" class="mobile-link" data-target="projects"><span class="ext">04</span>projects<span class="ext">.html</span></a>
+    <a href="#contact" class="mobile-link" data-target="contact"><span class="ext">05</span>contact<span class="ext">.html</span></a>
+  </nav>
+</div>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+
+<!-- side progress dots -->
+<div class="railnav" id="railnav" aria-hidden="true">
+  <span class="rail-dot is-active" data-target="home"></span>
+  <span class="rail-dot" data-target="about"></span>
+  <span class="rail-dot" data-target="services"></span>
+  <span class="rail-dot" data-target="projects"></span>
+  <span class="rail-dot" data-target="contact"></span>
+</div>
+
+<!-- ============ SLIDING PANELS ============ -->
+<main class="panels" id="panels">
+
+  <!-- ===================== HOME ===================== -->
+  <section class="panel" id="home">
+    <img class="panel-bg" src="1.jpeg" alt="">
+    <div class="panel-overlay"></div>
+
+    <div class="panel-content align-left">
+      <p class="eyebrow">// samarth web studio</p>
+      <h1 class="hero-title">Samarth<br>Chinchankar</h1>
+      <p class="hero-sub">I design and build fast, handcrafted websites — from a single landing page to a fully hosted multi‑page product. Clean code, considered typography, no bloat.</p>
+
+      <div class="cta-row">
+        <a href="#contact" class="btn btn-primary" data-target="contact">Start a project</a>
+        <a href="#projects" class="btn btn-ghost" data-target="projects">See work</a>
+      </div>
+
+      <div class="social-row" aria-label="Social media links">
+        
+        
+        <a href="https://www.instagram.com/samarth_web_studio?igsh=b2ZjeGJhM2dqaXp6" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        
+        <a href="mailto:samarthweb4@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://wa.me/8793522199" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <span class="scroll-hint">scroll / swipe →</span>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="panel" id="about">
+    <img class="panel-bg" src="2.jpeg" alt="">
+    <div class="panel-overlay panel-overlay--dark"></div>
+
+    <div class="panel-content align-right">
+      <p class="eyebrow">// about</p>
+      <h2 class="section-title">Who's building this</h2>
+
+      <div class="about-grid">
+        <img class="about-photo" src="3.jpeg" alt="Samarth Chinchankar working at a desk">
+        <div class="about-copy">
+          <p>I'm Samarth, the developer behind <strong>Samarth Web Studio</strong>. I build websites with plain HTML, CSS and JavaScript — no unnecessary frameworks, just fast-loading pages that look intentional on every screen size.</p>
+          <p>My process is simple: understand what the site needs to say, design a layout that says it clearly, then write clean code that's easy to maintain long after launch.</p>
+          <ul class="about-tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="panel" id="services">
+    <img class="panel-bg" src="3.jpeg" alt="">
+    <div class="panel-overlay"></div>
+
+    <div class="panel-content align-left panel-content--wide">
+      <p class="eyebrow">// services</p>
+      <h2 class="section-title">What I build</h2>
+
+      <div class="cards-grid services-grid">
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-file"></i></div>
+          <h3>Single Page Website</h3>
+          <p>One focused, scroll-friendly page — perfect for portfolios, landing pages and personal brands.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h3>Multiple Page Website</h3>
+          <p>A full site with separate pages for home, about, services and more — built for growing businesses.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Website + Hosting</h3>
+          <p>End-to-end: your site designed, built, deployed and hosted, so it's live and yours to keep.</p>
+        </article>
+      </div>
+
+      <div class="note-box">
+        <span class="note-label"><i class="fa-regular fa-note-sticky"></i> Note</span>
+        <p class="note-content">In the first two plans thw client would get a Website but would have to host the website on their own.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="panel" id="projects">
+    <img class="panel-bg" src="5.jpeg" alt="">
+    <div class="panel-overlay panel-overlay--dark"></div>
+
+    <div class="panel-content align-right panel-content--wide">
+      <p class="eyebrow">// projects</p>
+      <h2 class="section-title">Recent work</h2>
+
+      <div class="cards-grid projects-grid">
+        <div class="project-card"><img src="6.jpeg" alt="Project preview one"></div>
+        <div class="project-card"><img src="7.jpeg" alt="Project preview two"></div>
+        <div class="project-card"><img src="1.png" alt="Project preview three"></div>
+        <div class="project-card"><img src="8.jpeg" alt="Project preview four"></div>
+        <div class="project-card"><img src="9.jpeg" alt="Project preview five"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="panel" id="contact">
+    <img class="panel-bg" src="4.jpeg" alt="">
+    <div class="panel-overlay"></div>
+
+    <div class="panel-content align-center">
+      <p class="eyebrow">// contact</p>
+      <h2 class="section-title">Contact Me</h2>
+
+      <div class="tree">
+        <span class="trunk"></span>
+        <div class="branches">
+          <a class="branch" href="tel:+918793522199" aria-label="Call Samarth">
+            <span class="stem"></span>
+            <span class="node"><i class="fa-solid fa-phone"></i></span>
+            <span class="branch-label">Phone</span>
+          </a>
+          <a class="branch" href="mailto:samarthweb4@gmail.com" aria-label="Email Samarth">
+            <span class="stem"></span>
+            <span class="node"><i class="fa-solid fa-envelope"></i></span>
+            <span class="branch-label">Mail</span>
+          </a>
+          <a class="branch" href="https://www.instagram.com/samarth_web_studio?igsh=b2ZjeGJhM2dqaXp6" target="_blank" rel="noopener" aria-label="Samarth on Instagram">
+            <span class="stem"></span>
+            <span class="node"><i class="fa-brands fa-instagram"></i></span>
+            <span class="branch-label">Insta</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Samarth Chinchankar. All rights reserved.</p>
+  <nav class="footer-links">
+    <a href="#home" data-target="home">Home</a>
+    <a href="#about" data-target="about">About</a>
+    <a href="#services" data-target="services">Services</a>
+    <a href="#projects" data-target="projects">Projects</a>
+    <a href="#contact" data-target="contact">Contact</a>
+  </nav>
+</footer>
+
+<script src="script .js"></script>
+</body>
+</html>
